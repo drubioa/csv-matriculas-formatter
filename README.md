@@ -16,6 +16,21 @@ public class CsvMatriculasFormatterApplication {
     ...
 ```
 
+## Examples
+### Initial scv file
+```csv
+id,nombre,nif,dir,localidad,cp,matriculas
+1,Anonymous1,24314787S,CARRER MADRID 66, PALENCIA, 34321, 9819 AYY
+2,VALERIA SEGURA CORRAL,48647581M, ENPARANTZA MAYOR 75, SEGOVIA, 40988, 7310 EVQ
+3,GERARDO VELEZ CHAMORRO,35233585T,PRAZA HORNO 0,CUENCA, 16293, 6221 UZL
+```
+### Result of changes
+```csv
+nombre,nif,dir,localidad,cp,matriculas
+Anonymous1,24314787S,CARRER MADRID 66, PALENCIA, 34321,9819AYY
+VALERIA SEGURA CORRAL,48647581M, ENPARANTZA MAYOR 75, SEGOVIA, 40988,7310EVQ
+GERARDO VELEZ CHAMORRO,35233585T,PRAZA HORNO 0,CUENCA, 16293,6221UZL
+```
 ## Requirements 📋
 To install and run this project you may be installes next requirements:
 - openjdk 11.0.11 2021-04-20
