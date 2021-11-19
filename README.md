@@ -1,4 +1,5 @@
 # Removes whitespaces of larger CSV file.
+[![Java CI with Maven](https://github.com/drubioa/csv-matriculas-formatter/actions/workflows/maven.yml/badge.svg)](https://github.com/drubioa/csv-matriculas-formatter/actions/workflows/maven.yml)
 
 # Starting 🚀
 The main purpose of this project is sample, we have larger csv file, and need remove all whitespaces of specific csv column.
